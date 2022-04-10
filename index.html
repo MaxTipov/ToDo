@@ -30,8 +30,8 @@
             </h2>
             <ul class="mask-list">
                 <li v-for="(mask, index) in needDoList" :key="mask.id">
-                    <div>
-                        <input type="checkbox" v-on:change="doCheck(index, 'need')">
+                    <div v-on:change="doCheck(index, 'need')">
+                        <input type="checkbox" >
                         <span>{{ mask.title }}</span>
                     </div>
                     <button class="btn-remove" v-on:click="removeMask(index, 'need')">Remove</button>
