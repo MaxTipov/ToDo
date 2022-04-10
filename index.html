@@ -43,7 +43,7 @@
             </h2>
             <ul class="mask-list complete-list">
                 <li v-for="(mask, index) in completeList" :key="mask.id">
-                    <div>
+                    <div  v-on:click="doCheck(index, 'complete')">
                         <input type="checkbox" v-on:change="doCheck(index, 'complete')" checked>
                         <span>{{ mask.title }}</span>
                     </div>
