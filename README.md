@@ -1,2 +1,3 @@
 # ToDo
-https://MaxTipov.gitgub.io/ToDo/
+
+https://maxtipov.github.io/ToDo/
